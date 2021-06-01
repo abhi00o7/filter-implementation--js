@@ -124,7 +124,7 @@ var watchList = [
     };
   })
   .filter(item => {
-    return parseFloat(item.rating) >= 8.0;
+    return parseFloat(item.rating) >= 8.0; //parseFloat changes the string value from map function to floating point
   });
   
   
